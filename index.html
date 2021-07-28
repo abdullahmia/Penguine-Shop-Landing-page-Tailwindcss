@@ -11,18 +11,35 @@
 </head>
 <body>
     <section id="hero">
-        <div class="container mx-auto">
+        <div class="container mx-auto px-5">
+            <!-- === header section === -->
             <header class="py-3 flex items-center justify-between">
                 <div>
                     <img src="images/logo.png" class="w-72" alt="">
                 </div>
-                <div class="flex gap-4">
+                <div class="flex space-y-4 lg:block md:block hidden">
                     <a href="index.html" class="capitalize text-base font-medium">home</a>
                     <a href="index.html" class="capitalize text-base font-medium">product</a>
                     <a href="index.html" class="capitalize text-base font-medium">about us</a>
                     <a href="index.html" class="capitalize text-base font-medium">contact us</a>
                 </div>
             </header>
+
+            <!-- === Hero Section === -->
+            <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 items-center">
+                <div class="space-y-4">
+                    <h1 class="text-xl lg:text-7xl md:text-4xl uppercase font-bold">be the penuins of winter</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry.</p>
+                    <button class="bg-green-400 rounded-lg uppercase px-6 py-3 font-medium text-gray-100 hover:bg-green-600 transition delay-150 duration-300 ease-in-out"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>buy now</button>
+                </div>
+                <div>
+                    <img class="float-right" src="images/model.png" alt="">
+                </div>
+            </div>
         </div>
     </section>
 </body>
